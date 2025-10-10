@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 200px 1fr; /* 2 colonnes : sidebar + contenu */
+    grid-template-rows: 80px 1fr 60px; /* header + contenu + footer */
+    gap: 10px;
+    height: 100vh;
+  }
+  
+  .header {
+    grid-column: 1 / 3; /* Occupe les 2 colonnes */
+    background: #a6db34;
+    color: rgb(229, 26, 26);
+    text-align: center;
+    line-height: 80px;
+  }
+  
+  .sidebar {
+    background: #ccba2e;
+    padding:15px;
+  }
+  
+  .content {
+    background: #459fb6;
+    padding: 15px;
+    
+  }
+  
+  .footer {
+    grid-column: 1 / 3;
+    background: #046dd6;
+    color: rgb(215, 42, 42);
+    text-align: center;
+    line-height: 60px;
+  }
+  
