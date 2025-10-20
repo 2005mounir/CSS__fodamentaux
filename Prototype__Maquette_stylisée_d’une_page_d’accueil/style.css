@@ -140,10 +140,14 @@ table{
             display: flex;
             justify-content: center;
             align-items: center;
-
+            font-size: 50px;
        
      }
 
+
+ul{
+    font-size: 30px;
+}
 
 #PRP{
 
@@ -152,6 +156,10 @@ table{
     
 }
 
+
+th{
+          font-size: 30px;
+}
 
 
 
@@ -167,7 +175,7 @@ footer{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            border: 2PX ridge black;
+            border: 2px ridge black;
             box-shadow: 0  0px 15px rgb(25, 24, 24);
             
             
@@ -176,9 +184,5 @@ footer{
 
 
 nav{
-
-              display: flex;
-              flex-direction: column;
-              gap: 20px;
               font-size: 30PX;
     }
