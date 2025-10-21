@@ -20,6 +20,7 @@ header{
     border: 2PX ridge black;
     border-radius: 15PX 40PX;
     box-shadow: 0 4PX 8PX black;
+    text-shadow: 0 4PX 8PX rgb(139, 83, 9);
 }
 main{
 background-color: antiquewhite;
@@ -47,4 +48,7 @@ footer{
     flex-direction: column;
     align-items: center;
     box-shadow: 0 4PX 8PX black;
+}
+h3{
+    text-shadow: 0 6PX 5PX red;
 }
